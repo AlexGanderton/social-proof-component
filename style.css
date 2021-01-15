@@ -31,7 +31,7 @@ body {
   width: 1150px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (50%) [2];
+  -ms-grid-rows: (50%) (2);
   grid-template-rows: repeat(2, 50%);
   margin: 1rem;
 }
@@ -39,7 +39,7 @@ body {
 .container > .top {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
+  -ms-grid-columns: (1fr) (2);
   grid-template-columns: repeat(2, 1fr);
   padding-top: 2rem;
 }
@@ -114,7 +114,7 @@ body {
 .container > .bottom {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [3];
+  -ms-grid-columns: (1fr) (3);
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
 }
